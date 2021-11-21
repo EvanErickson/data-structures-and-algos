@@ -20,6 +20,6 @@ function palindrome(str) {
     }
 }
 
-palindrome('aba')
+// palindrome('aba')
 
 module.exports = palindrome;
