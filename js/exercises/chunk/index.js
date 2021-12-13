@@ -8,19 +8,37 @@
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
+
+// Is this the best way for the website or should I just have a count and subtract count or what?
+///They have the count and then it is subtracted when they place an order.. but then the order is put into the system as an array of [i], [i], [i] and then when the purchase buys it, they buy the array and then depending on the length that gets added to their account? Look up how robinhood or other stock brokers do the order book?    
 function chunk(array, size) {
-    const chunked = [];
-    let index = 0;
+   
 
-    while (index < array.length){
-        chunked.push(array.slice(index, index + size))
-        index += size;
-    }
-
-    return chunked;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 module.exports = chunk;
+
+// Main Solution
+// const chunked = [];
+// let index = 0;
+
+// while (index < array.length){
+//     chunked.push(array.slice(index, index + size))
+//     index += size;
+// }
+
+// return chunked;
 
 // Alternate Solution
 // function chunk(array, size) {

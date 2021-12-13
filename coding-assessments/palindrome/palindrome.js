@@ -30,6 +30,8 @@
         
         // prepend to new array
         arr2 += i
+        // arr2 = i + arr2
+        
         // i.push(arr2)
         // console.log('1',arr)
         // console.log('2',arr2)
