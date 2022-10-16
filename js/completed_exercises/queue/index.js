@@ -14,12 +14,23 @@ class Queue {
   }
 
   add(record) {
-    this.data.unshift(record);
+    this.data.push(record);
+    console.log('ues')
   }
 
   remove() {
-    return this.data.pop();
+    return this.data.shift();
   }
 }
+
+const q = new Queue();
+q.add(1);
+q.add(1);
+q.add(1);
+console.log(q)
+
+
+// Queue.add(1)
+
 
 module.exports = Queue;

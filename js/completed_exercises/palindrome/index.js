@@ -8,14 +8,14 @@
 //   palindrome("abcdefg") === false
 
 function palindrome(str) {
-  // let arr = str.split('')
-  // // let arr = str
-  // // arr.split('')
-  // let arr2 = []
-  // for (var i of arr ){
-  //     arr2.push(i)
-  //     return arr2
-  // }
+  let arr = str.split('')
+  // let arr = str
+  // arr.split('')
+  let arr2 = []
+  for (var i of arr ){
+      arr2.push(i)
+      return arr2
+  }
 
   var newString = "";
   for (let i of str) {
